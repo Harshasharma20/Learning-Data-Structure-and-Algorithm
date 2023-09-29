@@ -5,7 +5,7 @@ class ArrayPractice6{
     
         int x=1;
         
-        for(int y=x ; y < nums.length; y++)
+        for(int y=x; y < nums.length; y++)
         {
             if(nums[y] > nums[x-1])
             {

@@ -1,7 +1,7 @@
 class ArrayPractice14{
 	
 	public static void printSubarrays(int numbers[]){
-		int ts = 0;int sum1=0, sum2=0,sum3=0;
+		int ts = 0, sum1=0, sum2=0,sum3=0;
 		for(int i=0;i<numbers.length;i++){
 			int start = i;
 			sum1 = numbers[i]+sum1;

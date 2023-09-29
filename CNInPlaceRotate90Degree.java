@@ -7,18 +7,18 @@ class CNInPlaceRotate90Degree{
 		for(int i=0;i<n;i++){
 			for(int j=0;j<i;j++){
 
-				temp = arr[i][j];
-				arr[i][j]= arr[j][i];
-				arr[j][i]=temp;
+				temp = arr[i][j];  //   it will give output like this  1,4,7
+				arr[i][j]= arr[j][i]; //  							   2,5,8
+				arr[j][i]=temp; //	     							   3,6,9
 			}
 
 		}
 
-		//for swap ist row to 3rd row
+		//for swap ist row to 3rd row -- for expected output
 		for(int i=0;i<=n/2;i++){
 			for(int j=0;j<=n;j++){
 				
-				temp = arr[n-i-1][j];
+				temp = arr[n-i-1][j]s;
 				arr[n-i-1][j] = arr[i][j];
 				arr[i][j] = temp;
 			}

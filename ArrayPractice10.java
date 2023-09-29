@@ -18,8 +18,4 @@ class ArrayPractice10{
 
     	System.out.println(removeElement(nums,val)); 
     }
-
-
-
-
 }
