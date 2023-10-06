@@ -1,6 +1,6 @@
 class TowerOfHanoi{
 	
-	public static void towerOfHanoi(int n, String source, String helper, String destination){
+	public static void towerOfHanoi(int n, String source, String helper, String destination){ //time complexity = O(2^n)
 
 		if(n==1){
 
